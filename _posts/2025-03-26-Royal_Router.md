@@ -9,6 +9,8 @@ image:
   path: room.png
 ---
 
+**Royal Router** was a medum-hard level room. In which we encountered a `D-Link` Old model router, in which there was a command injection vulnerability. Using the command injection we used `wget` to read the `flag`
+
 ## Initial Recon
 
 ```console
